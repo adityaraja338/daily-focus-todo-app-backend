@@ -25,7 +25,7 @@ A Node.js backend for a Todo application with MongoDB, featuring user authentica
    ```
 3. Create a `.env` file in the root directory with the following variables:
    ```
-   PORT=5000
+   PORT=3000
    MONGODB_URI=mongodb://localhost:27017/todo-app
    JWT_SECRET=your_jwt_secret_key_here
    ```
