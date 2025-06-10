@@ -43,7 +43,7 @@ router.get('/', auth, async (req, res) => {
     res.json({
       tasks,
       currentPage: page,
-      totalPages: Math.ceil(total / limit),
+      totalPages: Math.ceil(total / limit) || 1,
       totalTasks: total
     });
   } catch (error) {
